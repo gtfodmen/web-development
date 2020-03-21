@@ -1,0 +1,23 @@
+<?php
+	function getGETParameter(string $name): ?string
+	{
+		return isset($_GET[$name]) ?(string) $_GET[$name] : null;
+	};
+	$identifier = getGETParameter('identifier');
+	echo 'It is identifier?</br>';
+	if ($identifier != null)  
+	{
+		if (preg_match('/[^0-9]/', $identifier[0]))
+		{
+			echo 'No. Unknown symbol(s) included in identifier.';
+		}
+		else
+		{
+			$result = preg_match('/^[a-zA-Z0-9]/', $identifier) ? 'No. Incorrect first symbol.' : 'Yes.';
+			echo $result;
+		};
+	}
+	else
+	{
+		echo 'No. Identifier is not found or empty.';
+	};	
