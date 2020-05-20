@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+body 
+{
+    font: 400 19px/1.7 Georgia; 
+    padding: 0; 
+    margin: 0; 
+    color: #222222;
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div
+{
+    box-sizing: border-box;  
+}
+
+nav 
+{
+    width: 960px;
+    position: fixed;
+    margin: 0 120px;
+    top: 0;
+    z-index: 1;
+}
+
+nav:before
+{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: -1;
+}
+
+.menu
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+
+.menu li
+{
+  float: left; 
+}
+
+.menu_part
+{
+    background: #45c3aa;
+}
+
+.icon
+{
+  color: #000;
+  display: block;
+  height: 48.5px;
+  padding: 0 21px 0 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;    
+  line-height: 50px;
+}
+
+.person_icon
+{
+    background: url(../images/about_me_icon.png) no-repeat;
+    background-position: 5px 16px;
+    color: #fff;
+    margin: 1px 0 0 16px;
+}
+
+.hobby_icon
+{
+    background: url(../images/hobby_icon.png) no-repeat;
+    background-position: 13px 17px;
+    margin: 1px 0 0 7px;
+    padding-left: 39px;
+}
+
+.video_icon
+{
+    background: url(../images/video_icon.png) no-repeat;
+    background-position: 12px 16px;
+    margin: 1px 0 0 7px;
+    padding-left: 38px;
+}
+
+article
+{
+    background: url(../images/background.png) no-repeat;
+    background-position: -10px 50px;
+}
+
+.about
+{
+    width:  960px;
+    margin: 0 auto;
+    padding-top: 260px;
+}
+
+.name
+{
+    float: right;
+    margin-right: 16.5px;
+}
+
+.citation
+{
+    width: 510px;
+    color: #fff;
+    font: italic 28px/1.5 Georgia;
+    margin-bottom: 72px;
+    margin-top: 25px;
+}
+
+.author
+{
+    font: 600 16px/1'Open Sans';
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+
+.name_header
+{
+    font: 700 48px 'Open Sans';
+    margin-left: 41px;
+}
+
+.rectangle
+{
+    background: #45c3aa;
+    border-radius: 10px;
+    width: 60px;
+    height: 6px;
+    position: absolute;
+    top: 568px;
+    left: 860px;
+}
+
+.physic
+{
+    width: 507px;
+    float: right;
+    margin: -2px 62.5px 38px 62.5px;
+}
+
+.writers
+{
+    float: left;
+    position: relative;
+    top: 33px;
+}
+
+.header_list
+{
+    font: 600 24px/1.5 'Open Sans';
+    color: #15a98c;
+    margin: 0;
+}
+
+.list_writer
+{
+    padding: 0 0 0 21px;
+    margin: 18px 0;
+}
+
+.favorite li
+{
+    margin: 14px 0 0 0;
+    font: 19px/1.16 Georgia;
+}
+
+.hobby
+{
+    float: right;
+}
+
+.hobby_header
+{
+    font: 400 36px 'Open Sans';
+    margin: 0 0 0 -1px;
+}
+
+.hobby_text
+{
+    width: 555px;
+    margin: 12px 15px 0 1px;
+}
+
+.movies
+{
+    float: left;
+    position: relative;
+    top: 35px;
+}
+
+.list_film
+{
+    padding: 0;
+    margin: 17px 0;
+    list-style: none;
+}
+
+.ref
+{
+    color: #15a98b;
+    font: 400 19px Georgia;
+    position: relative;
+    top: 41px;
+    left: 1px;
+}
+
+.ref:after
+{
+    content: "→";
+    display: block;
+    position: absolute;
+    left: 121px;
+    bottom: -1.5px;
+}
+
+.clear
+{
+    clear: both;    
+    padding-top: 99px;  
+}
+
+.header_loving_movies
+{
+    font: 400 36px 'Open Sans';
+    margin: 31px 0 30px 0;    
+}
+
+.loving_movies
+{
+    display: flex;
+}
+
+.film
+{
+    margin-right: 20px;
+}
+
+.film_header
+{
+    font: 700 22px 'Open Sans';
+    margin: 14px 0 0 -2px;
+}
+
+.astral
+{
+    margin-left: 0;
+}
+
+.film_text
+{
+    width: 285px;
+    margin-top: 18px;
+    font: 400 16px/1.8 Georgia;
+}
+
+.button
+{
+    background: #45c3aa;
+    color: #fff;
+    display: block;
+    width: 202px;
+    padding: 9px;
+    margin: 0 480px;
+    border-radius: 5px;
+    position: relative;
+    top: 38px;
+    text-align: center;
+    text-decoration: none;
+}
+
+article:after
+{
+    content:"© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»";
+    display: block;
+    position: relative;
+    background: #f5f5f5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 72px;
+    height: 70px;
+    width: 100%;
+    top: 108px;  
+    left: -9px; 
+}
+
+.anchor_about
+{
+    position: relative;
+    top: 150px;
+}
+
+.anchor_hobby
+{
+    position: relative;
+    top: 200px;
+}
+
+.anchor_film
+{
+    position: relative;
+    bottom: 50px;
+}
