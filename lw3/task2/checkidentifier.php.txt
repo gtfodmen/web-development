@@ -9,11 +9,11 @@
 	{
 		if (preg_match('/[^0-9]/', $identifier[0]))
 		{
-			echo 'No. Unknown symbol(s) included in identifier.';
+			echo 'No. Unknown first symbol included in identifier.';
 		}
 		else
 		{
-			$result = preg_match('/^[a-zA-Z0-9]/', $identifier) ? 'No. Incorrect first symbol.' : 'Yes.';
+			$result = preg_match('/^[a-zA-Z0-9]/', $identifier) ? 'No. Incorrect symbols included in identifier.' : 'Yes.';
 			echo $result;
 		};
 	}
