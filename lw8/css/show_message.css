@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body
+{
+    margin: 0;
+}
+
+div
+{
+    box-sizing: border-box;  
+}
+
+.list
+{
+    width: 542px;
+    margin: 40px auto 0 auto;
+}
+
+dt
+{
+    font: 400 20px 'Open Sans';
+}
+
+dd
+{
+    margin: 5px 0 15px 0;
+    padding: 10px 0 10px 17px;
+    border: 2px solid #a6a6a6;
+    border-radius: 2px;
+    font: 400 20px 'Open Sans';  
+}
+
+.data
+{
+    list-style: none;
+}
+
+.submit
+{
+    width: 220px;
+    padding: 15.5px;
+    font: 400 19px Georgia;
+    background: #15a98c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 43%;
+}

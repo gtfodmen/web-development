@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+body 
+{
+    font: 400 19px/1.7 Georgia; 
+    padding: 0; 
+    margin: 0; 
+    color: #222222;
+}
+
+.container
+{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 1px 0;
+}
+
+div
+{
+    box-sizing: border-box;  
+}
+
+nav 
+{
+    width: 960px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    z-index: 1;
+}
+
+nav:before
+{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: -1;
+}
+
+.menu
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+
+.menu li
+{
+  float: left; 
+}
+
+.menu_about
+{
+    background: #15a98c;
+}
+
+.icon
+{
+  color: #000;
+  display: block;
+  height: 48.5px;
+  padding: 0 21px 0 30px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;    
+  line-height: 50px;
+}
+
+.person_icon
+{
+    background: url(../img/about_me_icon.png) no-repeat;
+    background-position: 6px 16px;
+    color: #fff;
+    margin: 1px 0 0 15px;
+}
+
+.hobby_icon
+{
+    background: url(../img/hobby_icon.png) no-repeat;
+    background-position: 12px 17px;
+    margin: 1px 0 0 8px;
+    padding-left: 39px;
+}
+
+.video_icon
+{
+    background: url(../img/video_icon.png) no-repeat;
+    background-position: 12px 16px;
+    margin: 1px 0 0 7px;
+    padding-left: 38px;
+}
+
+article
+{
+    background: url(../img//background.png) no-repeat;
+    background-position: -8px 50px;
+}
+
+.about
+{
+    width:  960px;
+    margin: 0 auto;
+    padding-top: 259px;
+}
+
+.name
+{
+    float: right;
+    margin: 0 56px;
+}
+
+.citation
+{
+    width: 510px;
+    color: #fff;
+    font: italic 28px/1.5 Georgia;
+    margin: 25px 0;
+    margin-bottom: 72px;
+}
+
+.author
+{
+    font: 600 16px/1'Open Sans';
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+
+.name_header
+{
+    font: 700 48px 'Open Sans';
+    margin-left: 1px;
+    margin-bottom: 0;
+}
+
+.rectangle
+{
+    background: #45c3aa;
+    border-radius: 10px;
+    width: 60px;
+    height: 6px;
+    position: relative;
+    top: 20px;
+    right: 4px;
+    bottom: 20px; 
+}
+
+.physic
+{
+    width: 507px;
+    float: right;
+    position: relative;
+    margin: -2px 63px 0 0;
+}
+
+.header_list
+{
+    font: 600 24px/1.5 'Open Sans';
+    color: #15a98c;
+    margin: 0;
+}
+
+.writers
+{
+    float: left;
+    position: relative;
+    top: 33px;
+}
+
+.list_writer
+{
+    padding: 0 0 0 21px;
+    margin: 18px 0;
+}
+
+.favorite li
+{
+    margin: 14px 0 0 0;
+    font: 19px/1.16 Georgia;
+}
+
+.hobby
+{
+    float: right;
+    position: relative;
+    top: 38px;
+}
+
+.hobby_header
+{
+    font: 400 36px 'Open Sans';
+    margin: 0 0 0 -2px;
+}
+
+.hobby_text
+{
+    width: 555px;
+    margin: 12px 15px 0 0;
+}
+
+.movies
+{
+    float: left;
+    position: relative;
+    top: 61px;
+
+}
+
+.list_film
+{
+    padding: 0;
+    margin: 17px 0;
+    list-style: none;
+}
+
+.ref
+{
+    color: #15a98b;
+    font: 400 19px Georgia;
+    position: relative;
+    top: 41px;
+}
+
+.ref:after
+{
+    content: "→";
+    display: block;
+    position: absolute;
+    left: 120px;
+    bottom: -1px;
+}
+
+.clear
+{
+    clear: both; 
+    padding-top: 135px;   
+}
+
+.header_loving_movies
+{
+    font: 400 36px 'Open Sans';
+    margin: 31px 100px 30px 100px;    
+}
+
+.loving_movies
+{
+    display: inline-block;
+    position: relative;
+    left: 26px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.carusel
+{
+    display: flex;
+    height: 782px;
+    transform: translateX(-905px);
+}
+
+.arrow_left
+{
+    position: relative;
+    bottom: 655px;
+}
+
+.arrow_right
+{
+    position: relative;
+    bottom: 655px;
+    left: 50px;
+}
+
+.arrow_left:hover, .arrow_right:hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.film
+{
+    margin-right: 20px;
+    width: 285px;
+}
+
+.film_header
+{
+    font: 700 22px 'Open Sans';
+    margin: 14px 0 0 -2px;
+}
+
+.astral
+{
+    margin-left: 0;
+}
+
+.film_text
+{
+    width: 285px;
+    margin-top: 18px;
+    font: 400 16px/1.8 Georgia;
+}
+
+.button
+{
+    background: #45c3aa;
+    color: #fff;
+    display: block;
+    width: 202px;
+    padding: 9px;
+    margin: 28px 580px 59px 580px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.films
+{
+    background: #f9f9f9;
+}
+
+
+.text_me
+{
+    font: 300 36px 'Open Sans';
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 40px 344px 66px 344px;
+}
+
+.text_me:before
+{
+    content: "";
+    display: block;
+    background: #c4c4c4;
+    width: 200px;
+    height: 1px;
+    display: inline-block;
+    margin: 12px 27px 12px 0;
+}
+
+.text_me:after
+{
+    content: "";
+    display: block;
+    background: #c4c4c4;
+    width: 200px;
+    height: 1px;
+    display: inline-block;
+    margin: 12px 0 12px 24px;
+}
+
+
+.form
+{
+    width: 542px;
+}
+
+label
+{
+    font: 400 20px 'Open Sans';
+}
+
+.star
+{
+    color: red;
+}
+
+.input_cell:focus
+{
+    border: 2px solid #15a98c; 
+}
+
+.input_cell
+{
+    margin: 2px 0 25px 1px;
+    font: 400 20px 'Open Sans';
+    padding-left: 17px;
+}
+
+input[name="name"], input[name="email"]
+{
+    width: 519px;
+    height: 44px;
+    border: 2px solid #a6a6a6;
+    border-radius: 2px;
+}
+
+.country
+{
+    width: 540px;
+    height: 50px;
+    font: 400 18px 'Open Sans';
+    color: #555; 
+    border: 2px solid #a6a6a6;
+    margin: 4px 0 43px 1px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/arrow_down.png) no-repeat 498px 18px;
+}
+
+label[for="sex"]
+{
+    display: block;
+    margin-bottom: 8px;
+}
+
+label[for="male"], label[for="female"]
+{
+    font: 400 18px 'Open Sans';
+}
+
+
+.male
+{
+    position: relative;
+    top: 1px;
+    margin: 0 4px 0 1px;
+}
+
+.female
+{
+    position: relative;
+    top: 1px;
+    margin-left: 36px;
+}
+
+label[for="sms"]
+{
+    display: block;
+    margin: 37px 0 4px 0;
+}
+
+.sms
+{
+    width: 526px;
+    height: 136px;
+    border: 2px solid #a6a6a6;
+    border-radius: 2px;
+    font: 400 20px 'Open Sans';
+    padding: 5px;
+}
+
+.submit
+{
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font: 400 19px Georgia;
+    line-height: 50px;
+    background: #15a98c;
+    border-radius: 5px;
+    margin: 15px 0 0 1px;
+    border: none;
+}
+
+.form
+{
+    margin: 0 auto;
+}
+
+body:after
+{
+    content:"© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»";
+    display: block;
+    position: relative;
+    background: #f5f5f5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 64px;
+    height: 70px;
+    width: 100%;
+    top: 50px;  
+    left: -10px; 
+}
+
+.anchor_about
+{
+    position: relative;
+    top: 150px;
+}
+
+.anchor_hobby
+{
+    position: relative;
+    top: 200px;
+}
+
+.anchor_film
+{
+    position: relative;
+    top: 300px;
+}
+
+.anchor_form
+{
+    position: relative;
+    bottom: 20px;
+}
